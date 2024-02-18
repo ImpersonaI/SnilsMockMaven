@@ -5,6 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     image: snils_mock
+    container_name: snils_mock
     ports:
       - "8088:8088"
     deploy:
